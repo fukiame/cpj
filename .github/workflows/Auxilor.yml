@@ -1,12 +1,6 @@
 name: Auxilor
 
-on:
-  push:
-    branches: [ main ]
-    paths:
-      - '.github/workflows/Auxilor.yml'
-  schedule:
-    - cron: '0 */6 * * *'
+on: workflow_dispatch
 
 jobs:
   EcoJobs:
