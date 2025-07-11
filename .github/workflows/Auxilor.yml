@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   EcoJobs:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoJobs"
       target: "bin/*"
@@ -12,7 +12,7 @@ jobs:
       java: 17
       readonly: true
   EcoPets:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoPets"
       target: "bin/*"
@@ -20,7 +20,7 @@ jobs:
       java: 17
       readonly: true
   EcoCrates:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoCrates"
       target: "bin/*"
@@ -28,7 +28,7 @@ jobs:
       java: 17
       readonly: true
   EcoBosses:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoBosses"
       target: "bin/*"
@@ -36,7 +36,7 @@ jobs:
       java: 17
       readonly: true
   EcoEnchants:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoEnchants"
       target: "bin/*"
@@ -44,7 +44,7 @@ jobs:
       java: 17
       readonly: true
   EcoSkills:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoSkills"
       target: "bin/*"
@@ -52,7 +52,7 @@ jobs:
       java: 17
       readonly: true
   Reforges:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/Reforges"
       target: "bin/*"
@@ -60,7 +60,7 @@ jobs:
       java: 17
       readonly: true
   EcoWeapons:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoWeapons"
       target: "bin/*"
@@ -68,7 +68,7 @@ jobs:
       java: 17
       readonly: true
   Talismans:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/Talismans"
       target: "bin/*"
@@ -76,7 +76,7 @@ jobs:
       java: 17
       readonly: true
   EcoArmor:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoArmor"
       target: "bin/*"
@@ -84,7 +84,7 @@ jobs:
       java: 17
       readonly: true
   EcoItems:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoItems"
       target: "bin/*"
@@ -92,7 +92,7 @@ jobs:
       java: 17
       readonly: true
   StatTrackers:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/StatTrackers"
       target: "bin/*"
@@ -100,7 +100,7 @@ jobs:
       java: 17
       readonly: true
   Boosters:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/Boosters"
       target: "bin/*"
@@ -108,7 +108,7 @@ jobs:
       java: 17
       readonly: true
   Actions:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/Actions"
       target: "bin/*"
@@ -116,7 +116,7 @@ jobs:
       java: 17
       readonly: true
   EcoShop:
-    uses: HSGamer/ConstructProjects/.github/workflows/gradle-build.yml@main
+    uses: fukiame/cpj/.github/workflows/gradle-build.yml@main
     with:
       repository: "Auxilor/EcoShop"
       target: "bin/*"
